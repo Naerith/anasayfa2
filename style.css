@@ -86,7 +86,17 @@ nav {
   z-index: 2;
   background-color: #FFF;
   background: rgba(0, 0, 0, 0.7)
+}
 
+.flex-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  margin-right: 2rem;
 }
 
 nav a {
@@ -97,14 +107,6 @@ nav a {
   font-size: 20px;
   margin:25px 5px 20px 15px; /* aralarında boşluk bıraktık */
   padding: 12px 12px; /* hoverın alanını genişletmemizi sağlıyor */
-}
-
-#sol {
-  direction:ltr;
-}
-
-#sağ {
-direction: rtl;
 }
 
 nav a:hover {
